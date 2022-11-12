@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>스토킹2</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<!-- MAIN JS -->
+	<script src="main.js" defer></script>
+	<!-- CUSTOM JS -->
+	<script src="./youtube.js" defer></script>
+	<script src="./mousedown.js" defer></script>
+	<!-- MATERIAL ICONS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+	<!-- GSAP -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+		integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"
+		integrity="sha512-Eenw6RBFiF4rO89LCaB5fkd4WXI4Y7GSRxrLMMWx73dZNcl+dBU3/pJtITD2gTCoEGIf/Ph3spwp0zZnF+UEJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- scrollMagic JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+		integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+	<header>
+		<img src="images/stars.png" alt="" id="stars">
+		<img src="images/moon.png" alt="" id="moon">
+
+		<img src="images/mountains_behind.png" alt="" id="mountains_behind">
+		<h2 id="text">스토커에 관하여</h2>
+		<img src="images/mountains_front.png" alt="" id="mountains_front">
+		<img src="images/person.png" alt="" id="person">
+
+	</header>
+	<div class="break"></div>
+
+	<section class="scroll-content">
+		<div class="scroll-graphic">
+			<div class="graphic-item"><img class="scene-img" src="images/01.gif" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/02.png" alt=""></div>
+			<div class="graphic-item" data-action="birdFlies">
+				<img class="bird" src="" alt="">
+				<img class="scene-img" src="images/03.gif" alt="">
+			</div>
+			<div class="graphic-item"><img class="scene-img" src="images/04.gif" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/05.png" alt=""></div>
+			<div class="graphic-item" data-action="birdFlies2">
+				<img class="bird" src="" alt="">
+				<img class="scene-img" src="images/06.png" alt="">
+			</div>
+			<div class="graphic-item"><img class="scene-img" src="images/07.png" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/08.gif" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/09.png" alt=""></div>
+			<div class="graphic-item"><img class="scene-img" src="images/10.png" alt=""></div>
+		</div>
+		<div class="scroll-text global-width">
+			<div class="step step1">
+				<p>
+					많은 집착의 메세지들
+				</p>
+			</div>
+			<div class="step step2">
+				<p>
+					7년전 작은 커뮤니티를 운영하고 있던 나는 그곳에서 만난 사람들과 활발하게 교류하며 지냈다. 그 중에는 X도 있었다.
+				</p>
+			</div>
+			<div class="step step3">
+				<p>
+					그러던 어느날 X는 성적 농담을 나에게 던졌다. 나는 불쾌감을 표시했지만 그는 오히려 화를 냈다.
+				</p>
+			</div>
+			<div class="step step4">
+				<p>
+					나는 그를 차단했다. 그렇게 끝이 난줄 알았다.
+				</p>
+			</div>
+			<div class="step step5">
+				<p>
+					하지만 그는 스토커로 돌변했다. 그는 매일 나에게 스토킹 메일을 보냈다.
+				</p>
+			</div>
+			<div class="step step6">
+				<p>
+					어느날
+				</p>
+			</div>
+			<div class="step step7">
+				<p>
+					그는 이 메시지와 함께 지하철 역사를 촬영해 보냈다.
+				</p>
+			</div>
+			<div class="step step8">
+				<p>
+					난 이제 그가 찾아오진 않을까, 집 앞에 숨어있지 않을까 하는 불안감이 들고, 모르는 남자가 말을 걸면 큰 공포를 느낀다.
+				</p>
+			</div>
+			<div class="step step9">
+				<p>
+					난 모든 SNS를 탈퇴하고 해외 유학중이며 심각한 스트레스에 시달려 불안장애와 우울증을 진단받은 후 지금껏 정신과 약을 먹고 있다.
+				</p>
+			</div>
+			<div class="step step10">
+				<p>
+					하지만 X의 스토킹은 7년째 이어지고 있다.
+				</p>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section class="youtube">
+		<div class="youtube__area">
+			<div id="player"></div>
+		</div>
+		<div class="youtube__cover"></div>
+
+	</section>
+
+	<article class="description">
+		<h1>'스토킹 범죄'의 정의는?</h1>
+		<p>
+			'스토킹행위'란 상대방의 의사에 반하여 정당한 이유 없이 상대방 또는 그의 동거인, 가족에 대하여 ①접근하거나 따라다니거나 진로를 막아서는 행위 ②주거 등에서 기다리거나 지켜보는 행위 ③ 우편ㆍ전화ㆍ팩스
+			등을 이용하여 물건이나 글 등을 도달하게 하는 행위 등의 행위를 하여 상대방에게 불안감 또는 공포심을 일으키는 것을 말하는데요.
+			'스토킹범죄'란 지속적 또는 반복적으로 스토킹행위를 하는 것을 말합니다.
+		</p>
+	</article>
+	<div class="world">
+
+		<!-- card -->
+		<div class="card" data-flip="false">
+			<div class="card-side card-side-front">
+				<figure class="card-photo">
+					<img src="images/cardPhotoFirst.png" alt="Tina">
+				</figure>
+				스토킹 범죄의 처벌
+			</div>
+			<div class="card-side card-side-back">
+				<div class="card-message">
+					3년 이하의 징역 또는 3천만원 이하의 벌금을 처할 수 있도록하고,<br />
+					흉기 또는 그 밖의 위험한 물건을 휴대하거나 이용하여 스토킹 범죄<br />
+					를 저지른 사람을 5년 이하의 징역 또는 5천만원 이하의 벌금에 처할 수 있도록 함(제 18조)
+				</div>
+				</p>
+			</div>
+		</div>
+
+		<!-- card -->
+		<div class="card" data-flip="false">
+			<div class="card-side card-side-front">
+				<figure class="card-photo">
+					<img src="images/cardPhotoSecond.png" alt="Tina">
+				</figure>
+				대처 요령
+			</div>
+			<div class="card-side card-side-back">
+				<p class="card-message">
+					즉시 피해자는 수사기관에 신고를 해야한다.
+					사법경찰관리는 진행 중인 스토킹행위에 대하여 신고를 받은 즉시 현장에
+					나가 스토킹 행위를 제지하도록 할 수 있다.(제3조)
+				</p>
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+
+	<footer>
+		<div class="inner">
+
+
+
+			<div class="info">
+				<span>디지털 퍼블리싱2 수업 과제</span>
+				<span>디지털 퍼블리싱 : 정현욱 / 임유진</span>
+				<span>TEL : 02) 3015-1100 / FAX : 02) 3015-1106</span>
+				<span>개인정보 책임자 : 정현욱</span>
+			</div>
+
+			<p class="copyright">
+				&copy; <span class="this-year"></span>Degital Publishing All Rights Reserved.
+			</p>
+
+		</div>
+	</footer>
+
+
+	<div id="to-top">
+		<div class="material-icons">
+			arrow_upward
+		</div>
+	</div>
+
+	<div class="progress">
+		<div class="bar"></div>
+	</div>
+
+
+
+
+
+
+</body>
+
+</html>
